@@ -1,0 +1,31 @@
+# Development files
+node_modules/
+.env
+.env.example
+
+# Source TypeScript files (only dist is needed)
+nodes/**/*.ts
+credentials/**/*.ts
+!nodes/**/*.svg
+
+# Build artifacts
+*.log
+*.tgz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Development docs
+PUBLISH.md
